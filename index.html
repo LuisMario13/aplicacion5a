@@ -1,0 +1,220 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Quinta Aplicación</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temaapp5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body>
+
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="false" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Día de la Tierra</h1>
+  </div> 
+  <div data-role="main" class="ui-content"> 
+  
+  <div data-role="collapsible" data-content-theme="false" align="center" data-theme="a">
+    <h1>¿Qué es el Día de la Tierra?</h1>
+    <div>
+      <p>El Día de la Tierra es un día celebrado en muchos países el 22 de abril. Su promotor, el senador estadounidense Gaylord Nelson, instauró este día para crear una conciencia común a los problemas de la superpoblación, la producción de contaminación, la conservación de la biodiversidad y otras preocupaciones ambientales para proteger la Tierra. Es un día para rendir homenaje a nuestro planeta y reconocer a la Tierra como nuestro hogar y nuestra madre, así como lo han expresado distintas culturas a lo largo de la historia, demostrando la interdependencia entre sus ecosistemas y los seres vivos que la habitamos.</p>
+      <br>
+    </div>
+    <div>
+      <p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('v16','','imagenes/tierra2.jpg',1)"><img src="imagenes/tierra1.jpg" width="80%" height="60%" id="v16" /></a></p>
+    </div>
+    <p><strong>Click en la imagen para mas información</strong></p>
+    <div>
+        <a href="http://www.un.org/es/events/motherearthday/" target="_blank"> <img src="imagenes/tierra10.png" width="80%" height="60%"> </a>
+    </div>
+      <br>
+  </div>
+   
+  <div data-role="collapsible" data-content-theme="false" data-theme="a">
+    <h1>¿De dónde surgio el nombre a este día?</h1>
+    <div>
+      <p>De acuerdo con Gaylord Nelson, el término “Día de la Tierra”, era “un nombre obvio y lógico”, sugerido por “ciertas personas” en el otoño de 1969, incluido, afirma, “un amigo mío que había estado en el campo de las relaciones públicas y un ejecutivo de publicidad de New York”, Julian Koenig, quien había estado en el comité organizador de Nelson en 1969. La idea se le ocurrió a Koeing por la coincidencia entre su cumpleaños y el día escogido, el 22 de abril; en inglés, Earth Day (Día de la Tierra) rima con birthday (cumpleaños), la conexión parecía natural.</p>
+    </div>
+    <div align="center">
+      <img src="imagenes/tierra4.jpg" width="90%" height="60%"> 
+    </div>
+    </div>  
+    <div data-role="collapsible" data-content-theme="false" data-theme="a">
+      <h1>Manifestaciones durante el Día de la Tierra</h1>
+    <div>
+      <p>Durante las celebraciones del vigésimo aniversario del Día de la Tierra en 1990, mucha gente manifestó su compromiso de promover la armonía entre la naturaleza y la tierra.</p>
+      <ul>
+      <li>
+      En Francia, los participantes formaron una cadena humana a lo largo del Río Loira, alcanzando unos 800 km de longitud, con el propósito de honrar uno de los últimos ríos limpios de Europa.
+      </li>
+      <li>
+      En Asia, montañistas chinos, soviéticos y estadounidenses formaron un equipo para recolectar basura dejada en el Monte Everest por anteriores expediciones, reuniendo más de dos toneladas.
+      </li>
+      <li>
+      Unas cinco mil personas en Italia bloquearon carreteras, como protesta por la contaminación producida por los automóviles.
+      </li>
+      <li>
+      En Haití se declaró oficialmente al Día de la Tierra como un feriado nacional.
+      </li>
+      <li>
+      Alrededor de 10 000 estudiantes participaron a una campaña de limpieza en Jordania.
+      </li>
+      <li>
+      Cerca 35 000 ambientalistas japoneses se reunieron en la Isla de los Sueños, (una isla artificial, ubicada en la Bahía de Tokio, construida con basura) con el propósito de establecer un centro de reciclaje temporal.
+      </li>
+      </ul>
+    </div>
+    
+    <div align="center">
+      <img src="imagenes/tierra5.jpg" width="80%" height="60%"> 
+    </div>
+    </div>
+    <br>   
+<!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html"style="width:1000px;height:200.5px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->   
+    <p align="center">En mi comunidad no hay tanto problema con la basura. En la mayoría de las calles hay un bote de basura, además de los que hay en el parque. Los vecinos barren sus calles de manera periódica y algunos del diario. Aunque en algunas veces si hay de problemas con el camión de la basura, algunas veces pasa uno o dos días después de lo acostumbrado y los botes se desbordan y la se la lleva el viento y va a parar a los campos. Una propuesta seria hablar con el responsable del municipio y pedirle que comente esta situación con los trabajadores de la basura para que esto de pasar tarde a recoger la basura ya no se repita y así evitar la basura se propague por los campos.</p>
+    <br>
+  <div>
+    <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Calentamiento global</h2>
+        <p>Como ha afectado el hombre en el calentamiento global</p>
+        </a>
+      </li>
+      <br>
+        <li class="ui-first-child ui-last-child">
+        <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Consejos para ayudar al medio ambiente</h2>
+        <p>Consejos que pueden ayudar a detener el deterioro ambiental</p>
+        </a>
+      </li>
+      <br>
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Reflexión sobre el cambio climatico</h2>
+        <p>Reflexión por parte del desarrollador</p>
+        </a>
+      </li>
+    </ul>   
+  </div>
+
+  <br>  
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <div>
+          <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+        <div>
+          <h4>App5 Día de la Tierra</h4>
+          <h4>Luis Mario García Rendón</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Calentamiento global</h1>
+    </div>
+    <div data-role="content" align="center">
+      <div>
+        <p>La población mundial ha tenido un constante y relevante crecimiento demográfico, convirtiéndose esta, en una de las mayores causas del calentamiento global, de los bruscos cambios climáticos, extinción de especies, y el final de los recursos naturales. Debido a la demanda de consumo industrial, de utilización indiscriminada de recursos naturales realizada por la sobrepoblación humana. Pero para entender el problema, tratare de desarrollar una breve explicación sobre el fenómeno ambiental, antecedentes y sobre los acuerdos que se han realizado para enfrentarlo.</p>
+        <img src="imagenes/tierra9.jpg" width="60%" height="60%">
+        
+        <h2>¿Cómo se genera el calentamiento Global?</h2>      
+        <p>La tierra puede tener vida y una temperatura estable gracias al efecto invernadero. Esta actividad consiste retener parte de la energía solar que entra al planeta atravesando la atmósfera, y a través de los gases invernaderos presentes en el aire. La quema indiscriminada de combustible, la producción de carbón, la deforestación, el alto índice de dióxido de carbono (CO2), gas metano (CH4) y óxido nitroso (N2O), los fluorados: Hidrofluorocarbonos (HFC), Perfluorocarbonos (PFC) y Hexafluoruro de azufre (SF6) en el aire; han incrementado la emisión de los gases invernaderos más allá de los niveles naturales, engrosando la capa de la atmósfera y reteniendo muchos de los rayos solares en la tierra, generando así mayor concentración de calor llamada calentamiento global. </p>
+        <div>
+        <p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('v8','','imagenes/tierra6.jpg',1)"><img src="imagenes/tierra8.jpg" width="100%" height="60%" id="v8" /></a></p>
+        </div>
+      </div>
+      </div>
+      <div data-role="footer" data-theme="a" align="center" data-position="fixed">
+        <div>
+          <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+        <h4>App5 Día de la Tierra</h4>
+        <h4>Luis Mario García Rendón</h4>
+      </div>
+    </div>
+  </div>  
+  
+  <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Consejos para ayudar al medio ambiente</h1>
+    </div>
+    <div data-role="content" align="center">
+      <div>
+        <a href="https://www.youtube.com/watch?v=GeUAFrWrxO4" target="_blank"><img src="imagenes/tierra11.jpg" width="80%" height="60%"></a>
+        <br>
+        <p><strong>Click sobre alguna de las imagenes para algunos consejos mas</strong></p>
+        <br>
+         <a href="https://www.youtube.com/watch?v=GeUAFrWrxO4" target="_blank"> <img src="imagenes/tierra12.jpg" width="100%" height="60%"></a>
+      </div>
+      </div>
+      <div data-role="footer" data-theme="a" align="center" data-position="fixed">
+        <div>
+        <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+        <h4>App5 Día de la Tierra</h4>
+        <h4>Luis Mario García Rendón</h4>
+      </div>
+    </div>
+  </div>
+
+    <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Reflexión</h1>
+    </div>
+    <div data-role="content" align="center">
+      <div>
+        <p>¿Qué está pasando en el planeta? Muchos se preguntan eso, muchos quieren hacer conciencia de la situación actual en la que se encuentra el planeta, pero no sirve de mucho porque no a todos les importa. Al escuchar que el planeta está mal, la mayoría piensa que es por causa de las fábricas, de la contaminación que estas provocan, y no es así, tienen algo de razón en decir que las fabricas tienen algo de culpa pero también la demás gente por no hacer nada para solucionar esto.</p>
+        <p>Debemos cuidar al planeta porque no tenemos otro y aunque lo tuviéramos no está bien solo desperdiciar las cosas y cambiarlas. Tenemos que aprovechar que estamos en lugar favorable para que la vida puede existir y dejar que el planeta se acabe por si solo y no por nuestra culpa. El planeta es como un cuerpo y nosotros al hacerle daño somos como una enfermedad y se le seguimos haciendo daño el cuerpo tomara medidas y no creo que esas medidas sean buenas para la enfermedad...</p>
+      <p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('v13','','imagenes/tierra13.jpg',1)"><img src="imagenes/tierra3.jpg" width="60%" height="60%" id="v13" /></a></p>
+      </div>
+      </div>
+      <div data-role="footer" data-theme="a" align="center" data-position="fixed">
+        <div>
+          <img src="res/android/mdpi.png" width="46" height="46">
+        </div>
+        <h4>App5 Día de la Tierra</h4>
+        <h4>Luis Mario García Rendón</h4>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
